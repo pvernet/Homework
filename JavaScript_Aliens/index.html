@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class = "container">
+    <div class = "jumbotron">
+    <h1> UFO sightings</h1>
+    <p> Search for the truth</p>
+    </div>
+    </div>
+<hr>
+<div class = "col-md-12"> 
+    <div class = "col-md-3">
+        <form id='date-search'>
+            <label for="date-input"> Search by Date</label>
+            <br>
+            <input type="text" id="date-input">
+            <input id="date-results" type="submit" value="Date Search">
+        </form>
+        <form id='city-search'>
+            <label for="city-input"> Search by City</label>
+            <br>
+            <input type="text" id="city-input">
+            <input id="city-results" type="submit" value="City Search">
+        </form>
+        <form id='state-search'>
+            <label for="state-input"> Search by State</label>
+            <br>
+            <input type="text" id="state-input">
+            <input id="state-results" type="submit" value="State Search">
+        </form>
+        <form id='country-search'>
+            <label for="country-input"> Search by Country</label>
+            <br>
+            <input type="text" id="country-input">
+            <input id="country-results" type="submit" value="Country Search">
+        </form>
+        <form id='shape-search'>
+            <label for="shape-input"> Search by Shape</label>
+            <br>
+            <input type="text" id="shape-input">
+            <input id="shape-results" type="submit" value="Shape Search">
+        </form>
+    </div>
+</div>
+<hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/data.js" type="text/javascript"></script>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
